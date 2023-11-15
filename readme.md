@@ -58,3 +58,22 @@
 -- add "dev": "nodemon src/index.js"    in scripts section of package.json file.
 
 #### Note : Environment variable and module type import having some problems in production, because .env is using required syntax, to resolve it. ( you can search for dotenv)
+
+## Now comment git as blank project structure is made , use commands
+
+    git status
+    git add .
+    git comment -m "project strucuture created part1"
+    git push
+
+### we need different folders, like "controllers" , "db", "middlewares", "models", "routes", "utils"
+
+### prettier plugin, when working in teams, and multiple developers, there are multiple conflicts rised while merging branches, due to spaces and coding styles, that are not actualy the conflicts, so better to make settings in prettier extension and use same profile/settings
+
+    npm i -D prettier
+
+
+-- we have to add files manualy to work actualy prettier settings (some extension, tools available to generate these files actualy.)
+-- we will add file ".prettierrc", we can get settings from prettier site documentation...
+-- we will add file to ignore styles on files and folders, add file ".prettierignore" and add files in it
+
