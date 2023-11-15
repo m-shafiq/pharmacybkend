@@ -1,0 +1,16 @@
+{
+  "name": "pharmacybkend",
+  "version": "1.0.0",
+  "description": "For learning backend database , services javascript, node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "mongoos"
+  ],
+  "author": "Shafiq",
+  "license": "ISC"
+}
